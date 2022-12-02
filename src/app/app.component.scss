@@ -1,0 +1,12 @@
+form {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+
+  input {
+    margin: 10px;
+    &.ng-invalid.ng-touched {
+      border: 1px solid red;
+    }
+  }
+}
